@@ -10,15 +10,19 @@ O desafio consiste na criação de uma aplicação em uma linguagem de programa�
 
 # HOW TO RUN?
 
-1. Certifique-se de ter as bibliotecas necessárias instaladas ;)
+1. Pra rodar primeiro vamos instalar o ambiente necessário, segue aí:
+```bash
+python -m venv venv
+```
+- Use também:
+```bash
+.\venv\Scripts\activate
+```
+2. Certifique-se de ter as bibliotecas necessárias instaladas ;)
 - "Quais bibliotecas?"
 É fácil, me acompanha. Joga aí no terminal:
 ```bash
 pip install gspread oauth2client google-auth google-auth-oauthlib google-auth-httplib2
-```
-2. Aproveita e da uma conferida também no:
-```bash
-python!start python_installer.exe
 ```
 
 # GOOGLE SHEETS
